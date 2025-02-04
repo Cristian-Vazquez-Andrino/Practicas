@@ -33,7 +33,7 @@ By adjusting **p**, different levels of compression can be achieved, balancing s
 
 ## Running the Code
 
-1. Download the script script `compress.m` and the test image `image_to_compress.jpg`.
+1. Download the script `compress.m` and the test image `image_to_compress.jpg`.
 
 2. Ensure that the working directory contains the script `compress.m` and the test image `image_to_compress.jpg`.
 
