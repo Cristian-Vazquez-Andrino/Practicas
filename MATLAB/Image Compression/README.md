@@ -2,7 +2,7 @@
 
 ## Author
 
-**Cristian Vázquez**  
+Cristian Vázquez 
 
 
 ## Contents
