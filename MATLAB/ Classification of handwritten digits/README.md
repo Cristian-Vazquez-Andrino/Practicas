@@ -39,4 +39,5 @@ The repository contains the following files:
 3. Execute the following command in MATLAB:
 
 ```matlab
-   classification_code;
+   run('ClassificationOfDigits.m')
+
