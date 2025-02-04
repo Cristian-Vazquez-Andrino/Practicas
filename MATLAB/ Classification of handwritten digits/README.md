@@ -2,7 +2,7 @@
 # Classification of Handwritten Digits
 
 ## Author
-**Cristian Vázquez Andrino**
+Cristian Vázquez Andrino
 
 ## Problem Statement
 This project addresses the classification of handwritten digits using the US Post Office Zip Code dataset. The dataset consists of:
