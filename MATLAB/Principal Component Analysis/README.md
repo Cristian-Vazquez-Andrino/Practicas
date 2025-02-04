@@ -24,7 +24,7 @@ The goal is to analyze the variance captured by the principal components and vis
 
 - `PCA.pdf` – A detailed report explaining the steps taken in the analysis.
 - `pca_script.m` – MATLAB script implementing PCA (not included yet, please add).
-- `places.csv` – The dataset (not included, download from the provided source).
+- `places.csv` – The dataset (included, downloaded from the provided source).
 
 ## Implementation Steps
 
