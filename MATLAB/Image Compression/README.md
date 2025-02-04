@@ -20,43 +20,17 @@ This repository contains an implementation of **image compression** using **Sing
 
 ## Implementation
 
-### Mathematical Background
+The MATLAB function `compress.m` performs **image compression** using **Singular Value Decomposition (SVD)**. The original image is read and decomposed into three color channels (RGB). Each channel is processed separately using SVD, where only the first **p** singular values are retained to create a lower-rank approximation of the image.
 
-Let the original image be represented as an **m × n** matrix, and let **U, Σ, V** be its SVD decomposition:
+The function follows these steps:
 
-\
-A = U Σ V^T
+1. **Read and validate the image** – The function loads the image and ensures that the chosen rank **p** is appropriate for its resolution.
+2. **Apply SVD** – Each RGB color channel is decomposed using MATLAB’s `svd` function.
+3. **Reconstruct the image** – The image is approximated by keeping only the first **p** singular values and their corresponding vectors.
+4. **Calculate the rate of compression** – The function computes the ratio between the storage size of the compressed image and the original image. This is determined based on the number of retained singular values.
+5. **Display and store results** – The compressed image is shown and stored for comparison with the original.
 
-
-To compress the image, only the first **p** singular values are retained. The compressed image approximation is then:
-
-\
-Ap = Up Σp Vp^T
-
-
-where **Up, Σp, Vp** contain only the first **p** singular values and corresponding vectors.
-
-### Compression Rate
-
-The amount of information required to store the original image is:
-
-\
-3mn
-
-
-(where the factor of 3 accounts for the RGB channels). The storage requirement for a compressed image using **p** singular values is:
-
-\
-3 (mp + p + np)
-
-
-The **compression rate (CR)** is then given by:
-
-\
-CR = 3(mp + p + np)/(3mn)
-
-
-This ratio indicates the reduction in storage compared to the original image.
+By adjusting **p**, different levels of compression can be achieved, balancing storage size and image quality.
 
 ## Running the Code
 
