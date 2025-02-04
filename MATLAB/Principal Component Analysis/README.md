@@ -48,7 +48,7 @@ The goal is to analyze the variance captured by the principal components and vis
 
 ## Running the Code
 
-1. Download the dataset from [Places Rated Almanac](https://online.stat.psu.edu/stat505/lesson/11/11.3), save it as `places.csv` and make sure that it is located in the same working directory as the script.  
+1. Download the dataset places.csv (from here or from [Places Rated Almanac](https://online.stat.psu.edu/stat505/lesson/11/11.3)) and make sure that it is located in the same working directory as the script.  
 2. Run the MATLAB script:  
 
    ```matlab
