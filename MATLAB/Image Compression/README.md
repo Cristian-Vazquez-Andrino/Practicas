@@ -26,13 +26,13 @@ Let the original image be represented as an **m × n** matrix, and let **U, Σ, 
 
 \
 A = U Σ V^T
-\
+
 
 To compress the image, only the first **p** singular values are retained. The compressed image approximation is then:
 
 \
 Ap = Up Σp Vp^T
-\
+
 
 where **Up, Σp, Vp** contain only the first **p** singular values and corresponding vectors.
 
