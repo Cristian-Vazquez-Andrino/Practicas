@@ -33,7 +33,7 @@ By adjusting **p**, different levels of compression can be achieved, balancing s
 
 ## Running the Code
 
-1. Ensure that MATLAB is installed and that the working directory contains the script `compress.m` and the test image `image_to_compress.jpg`
+1. Ensure that the working directory contains the script `compress.m` and the test image `image_to_compress.jpg`
 
 2. Execute the following command in MATLAB:
 
