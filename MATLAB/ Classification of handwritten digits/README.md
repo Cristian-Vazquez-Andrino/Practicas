@@ -18,7 +18,7 @@ The goal is to:
 ## Contents
 The repository contains the following files:
 - `Classification_of_handwritten_digits.pdf`: A detailed report with explanations, results, and conclusions.
-- `classification_code.m`: MATLAB implementation of the classification algorithm.
+- `ClassificationOfDigits.m`: MATLAB implementation of the classification algorithm.
 - `zipdata.mat`: The dataset containing the training and test sets.
 - `README.md`: This document explaining the project.
 
@@ -31,10 +31,12 @@ The repository contains the following files:
 6. **Residual Analysis**: The relative residuals of the classification are plotted to assess classification confidence.
 
 ## Running the Code
-To run the MATLAB script and perform classification:
 
-1. Download the dataset `zipdata.mat` and the script and make sure that both are in the same working directory.
-2. Open MATLAB and execute:
-   ```matlab
-   load('zipdata.mat');
+1. Download the script `ClassificationOfDigits.m` and the dataset `zipdata.mat`.
+
+2. Ensure that the working directory contains the script `ClassificationOfDigits.m` and the dataset `zipdata.mat`.
+
+3. Execute the following command in MATLAB:
+
+```matlab
    classification_code;
