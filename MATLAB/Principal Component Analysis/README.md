@@ -1,10 +1,12 @@
 # Principal Component Analysis (PCA) in MATLAB
 
-This repository contains an implementation of Principal Component Analysis (PCA) in MATLAB, based on data from [Places Rated Almanac](https://online.stat.psu.edu/stat505/lesson/11/11.3). The dataset consists of ratings for 329 communities across 9 different criteria.
+## Author
+
+Cristian Vázquez Andrino
 
 ## Problem Statement
 
-PCA is applied to a dataset of 329 observations, where each observation corresponds to a rating vector in **R⁹**, with the following attributes:
+This repository contains an implementation of Principal Component Analysis (PCA) in MATLAB, based on data from [Places Rated Almanac](https://online.stat.psu.edu/stat505/lesson/11/11.3). The dataset consists of ratings for 329 communities across 9 different criteria.:
 
 1. Climate and Terrain  
 2. Housing  
