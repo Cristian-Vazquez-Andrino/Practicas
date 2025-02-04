@@ -42,19 +42,19 @@ The amount of information required to store the original image is:
 
 \
 3mn
-\
+
 
 (where the factor of 3 accounts for the RGB channels). The storage requirement for a compressed image using **p** singular values is:
 
 \
 3 (mp + p + np)
-\
+
 
 The **compression rate (CR)** is then given by:
 
 \
 CR = 3(mp + p + np)/(3mn)
-\
+
 
 This ratio indicates the reduction in storage compared to the original image.
 
