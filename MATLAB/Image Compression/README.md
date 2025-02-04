@@ -8,7 +8,7 @@ Universidad Carlos III de Madrid
 
 ## Contents
 
-This repository contains an implementation of **image compression** using **Singular Value Decomposition (SVD)** in MATLAB. The method allows for a reduced storage size while maintaining a high-quality approximation of the original image.
+This repository contains an implementation of **image compression** using **Singular Value Decomposition (SVD)** in MATLAB. The method allows for a reduced storage size while maintaining a high-quality approximation of the original image. It also includes the calculation of the compression rate of each image.
 
 ### Files in this repository:
 
@@ -25,16 +25,16 @@ This repository contains an implementation of **image compression** using **Sing
 Let the original image be represented as an **m × n** matrix, and let **U, Σ, V** be its SVD decomposition:
 
 \[
-A = U \Sigma V^T
+A = U Σ V^T
 \]
 
 To compress the image, only the first **p** singular values are retained. The compressed image approximation is then:
 
 \[
-A_p = U_p \Sigma_p V_p^T
+Ap = Up Σp Vp^T
 \]
 
-where **U_p, Σ_p, V_p** contain only the first **p** singular values and corresponding vectors.
+where **Up, Σp, Vp** contain only the first **p** singular values and corresponding vectors.
 
 ### Compression Rate
 
