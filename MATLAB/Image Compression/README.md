@@ -3,8 +3,7 @@
 ## Author
 
 **Cristian Vázquez**  
-Master in Computational and Applied Mathematics  
-Universidad Carlos III de Madrid  
+
 
 ## Contents
 
