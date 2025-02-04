@@ -33,7 +33,7 @@ The repository contains the following files:
 ## Running the Code
 To run the MATLAB script and perform classification:
 
-1. Ensure `zipdata.mat` is in the same directory as the script.
+1. Download the dataset `zipdata.mat` and the script and make sure that both are in the same working directory.
 2. Open MATLAB and execute:
    ```matlab
    load('zipdata.mat');
