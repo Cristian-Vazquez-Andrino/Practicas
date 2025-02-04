@@ -24,15 +24,15 @@ This repository contains an implementation of **image compression** using **Sing
 
 Let the original image be represented as an **m × n** matrix, and let **U, Σ, V** be its SVD decomposition:
 
-\[
+\
 A = U Σ V^T
-\]
+\
 
 To compress the image, only the first **p** singular values are retained. The compressed image approximation is then:
 
-\[
+\
 Ap = Up Σp Vp^T
-\]
+\
 
 where **Up, Σp, Vp** contain only the first **p** singular values and corresponding vectors.
 
@@ -40,21 +40,21 @@ where **Up, Σp, Vp** contain only the first **p** singular values and correspon
 
 The amount of information required to store the original image is:
 
-\[
-3 \times m \times n
-\]
+\
+3mn
+\
 
 (where the factor of 3 accounts for the RGB channels). The storage requirement for a compressed image using **p** singular values is:
 
-\[
-3 \times (m \cdot p + p + n \cdot p)
-\]
+\
+3 (mp + p + np)
+\
 
 The **compression rate (CR)** is then given by:
 
-\[
-CR = \frac{3(m \cdot p + p + n \cdot p)}{3 \cdot m \cdot n}
-\]
+\
+CR = 3(mp + p + np)/(3mn)
+\
 
 This ratio indicates the reduction in storage compared to the original image.
 
