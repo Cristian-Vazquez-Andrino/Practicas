@@ -36,8 +36,8 @@ Then, execute the scripts in the code/ folder based on the analysis you want to 
 
 The Python scripts are organized according to the sections of the document:
 
-- fuzzy_cmeans.py: Implements the basic FCM algorithm (Listing 1 in the appendix). This script generates synthetic 2D data and applies the standard fuzzy c-means clustering algorithm. It visualizes the clustering results by plotting membership level curves and cluster centroids.
+- `fuzzy_cmeans.py`: Implements the basic FCM algorithm (Listing 1 in the appendix). This script generates synthetic 2D data and applies the standard fuzzy c-means clustering algorithm. It visualizes the clustering results by plotting membership level curves and cluster centroids.
 
-- gustafson_kessel.py: Implements the Gustafson-Kessel algorithm (Listing 2 in the appendix). This algorithm extends FCM by using adaptive covariance matrices to better model clusters with different shapes. It applies the algorithm to a synthetic dataset and visualizes the results with contour plots showing the cluster membership functions.
+- `gustafson_kessel.py`: Implements the Gustafson-Kessel algorithm (Listing 2 in the appendix). This algorithm extends FCM by using adaptive covariance matrices to better model clusters with different shapes. It applies the algorithm to a synthetic dataset and visualizes the results with contour plots showing the cluster membership functions.
 
-- image_segmentation.py: Uses the FCM algorithm for segmenting images based on pixel intensity (Listing 3 in the appendix). The script loads a grayscale image, applies fuzzy c-means clustering to segment different regions, and reconstructs the segmented image. It is particularly useful for medical imaging and object detection tasks.
+- `image_segmentation.py`: Uses the FCM algorithm for segmenting images based on pixel intensity (Listing 3 in the appendix). The script loads a grayscale image, applies fuzzy c-means clustering to segment different regions, and reconstructs the segmented image. It is particularly useful for medical imaging and object detection tasks.
