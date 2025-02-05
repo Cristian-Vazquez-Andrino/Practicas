@@ -20,8 +20,8 @@ Fuzzy clustering is an unsupervised learning technique that assigns degrees of m
 
 ## Usage
 To run the scripts, install the required dependencies:
-```bash
-pip install numpy matplotlib scikit-fuzzy scikit-image scipy```
+``bash
+pip install numpy matplotlib scikit-fuzzy scikit-image scipy
 
 Then, execute the scripts in the code/ folder based on the analysis you want to perform.
 ## Structure of the Scripts
